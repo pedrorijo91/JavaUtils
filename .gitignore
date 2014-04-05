@@ -2,6 +2,7 @@ bin/
 src/experiments
 .project
 .settings
+.classpath
 
 *.class
 

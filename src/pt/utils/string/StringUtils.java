@@ -8,29 +8,31 @@ public class StringUtils {
         return string.replaceAll("\\s+", "");
     }
 
-    public static String makeString(List<String> list, String sep) {
+    public static String makeString(List<Object> list, String sep) {
 
-        String[] array = list.toArray(new String[0]);
+        Object[] array = list.toArray(new Object[0]);
         return makeString(array, sep);
     }
 
-    public static String makeString(String[] list, String sep) {
+
+    public static String makeString(Object[] list, String sep) {
         boolean first = true;
 
         StringBuilder sb = new StringBuilder();
 
-        for (String s : list) {
+        for (Object obj : list) {
             if (first) {
-                sb.append(s);
+                sb.append(obj.toString());
                 first = false;
             } else {
-                sb.append(sep + s);
+                sb.append(sep + obj.toString());
             }
         }
 
         return sb.toString();
     }
-
+    
+    
     public static String removeLastChar(String s) {
         if (s != null) {
             s = s.substring(0, s.length() - 1);

@@ -1,4 +1,4 @@
-package pt.utils.exception;
+package pt.pedrorijo91.utils.exception;
 
 public class NegativeNumberException extends Exception {
 

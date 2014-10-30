@@ -1,4 +1,4 @@
-package pt.utils.date;
+package pt.pedrorijo91.utils.date;
 
 import java.text.DateFormatSymbols;
 import java.text.ParseException;

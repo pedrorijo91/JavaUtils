@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="JavaUtils/docs/JavaUtils.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/JavaUtils/docs/jar-description.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=JavaUtils/test"/>
+        <file path="/JavaUtils/README.md"/>
+        <file path="/JavaUtils/.project"/>
+        <file path="/JavaUtils/.gitignore"/>
+        <file path="/JavaUtils/.classpath"/>
+        <javaElement handleIdentifier="=JavaUtils/src"/>
+        <folder path="/JavaUtils/docs"/>
+    </selectedElements>
+</jardesc>

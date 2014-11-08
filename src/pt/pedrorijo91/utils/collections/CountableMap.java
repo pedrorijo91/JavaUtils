@@ -28,7 +28,7 @@ public class CountableMap<K> extends HashMap<K, Integer> {
     }
 
     /**
-     * Increments the provided key by the amount specified in param inc
+     * Increments the provided key by the amount specified in {@code inc}
      *
      * @param key the key to increment
      * @param inc the amount to increment
@@ -60,7 +60,7 @@ public class CountableMap<K> extends HashMap<K, Integer> {
     }
 
     /**
-     * Decrements the provided key by the amount specified in param dec
+     * Decrements the provided key by the amount specified in {@code dec}
      *
      * @param key the key to decrement
      * @param dec the amount to decrement
